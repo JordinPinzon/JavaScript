@@ -11,7 +11,7 @@ Jordin Pinzon
 SI8 - P2
 
 ## Clone Repository
-`[https://github.com/JordinPinzon/JavaScript](https://github.com/JordinPinzon/JavaScript)`
+`https://github.com/JordinPinzon/JavaScript`
 
 ## Install Dependencies
 
