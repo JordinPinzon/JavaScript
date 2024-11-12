@@ -43,14 +43,11 @@ If you don't have Docker installed yet, download and install it from " https ://
 
 2. Download the image from Docker Hub
 Open your terminal and run the following command to download the Docker image:
-Docker pull jordin13/javascript-app:nombreetiqueta
-## Build the image
-Build the image with the following command:
-docker build -t angular-app-hello .
+docker pull jordin13/javascript-app:latest
 
 ## Run the Docker Image
 Once the image is downloaded, you can run a container with the following command:
-docker run -p 4200:4200 --name AppJavascript angular-app-hello
+docker run -d -p 4200:4200 --name javascript-app jordin13/javascript-app:latest
 
 ## Access the Project
 Open your browser and go to the following address:
